@@ -1,6 +1,6 @@
 TypeScript + Phaser + Webpack + Electron starter app
 ======================
-Simple TypeScript v2.6 example app on Electron 1.7 with Pixi.js 4.7 and Webpack 4 (hot reload support)
+Simple TypeScript 3.x example app on Electron 3.x with Phaser 3.x and Webpack 4 (hot reload support)
 ## Production build
  ```bash
 npm i && npm run package
