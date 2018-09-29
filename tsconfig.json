@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+      "baseUrl": ".",
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "target": "es6",
+      "jsx": "react",
+      "paths": {
+          "@main/*": ["app/src/ts/main/*"],
+          "@renderer/*": ["app/src/ts/renderer/*"],
+          "@shared/*": ["app/src/ts/shared/*"],
+          "@assets/*": ["app/assets/*"]
+      }
+  },
+  "include": [
+      "./app/src/ts/**/*",
+      "./node_modules/phaser3-docs/typescript"
+  ]
+}
