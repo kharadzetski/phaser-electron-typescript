@@ -16,6 +16,6 @@
   },
   "include": [
       "./app/src/ts/**/*",
-      "./node_modules/phaser3-docs/typescript"
+      "./node_modules/phaser/types"
   ]
 }

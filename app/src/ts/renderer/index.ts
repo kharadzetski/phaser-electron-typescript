@@ -1,11 +1,11 @@
-import 'phaser'
+import 'phaser';
 
 import { BootScene } from "@renderer/scenes/bootScene";
 import { MainMenuScene } from "@renderer/scenes/mainMenuScene";
 import { GameScene } from "@renderer/scenes/gameScene";
 import { APP_WIDTH, APP_HEIGHT } from '@shared/constants';
 
-const config: GameConfig = {
+const config: Phaser.Types.Core.GameConfig = {
   title: "Flappy Bird",
   version: "1.0",
   width: APP_WIDTH,
@@ -35,7 +35,7 @@ const config: GameConfig = {
 };
 
 export class Game extends Phaser.Game {
-  constructor(config: GameConfig) {
+  constructor(config: Phaser.Types.Core.GameConfig) {
     super(config);
   }
 }
