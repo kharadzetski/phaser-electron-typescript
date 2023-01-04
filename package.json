@@ -50,7 +50,7 @@
     "electron": "3.0.2",
     "electron-builder": "20.28.4",
     "file-loader": "2.0.0",
-    "html-webpack-plugin": "3.2.0",
+    "html-webpack-plugin": "5.5.0",
     "phaser3-docs": "git+ssh://git@github.com:photonstorm/phaser3-docs.git",
     "rimraf": "2.6.2",
     "source-map-loader": "0.2.4",
